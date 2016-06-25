@@ -1,9 +1,28 @@
 table{
   border-collapse: collapse;
   text-align: justify;
+  background-color: white;
 }
 td{
   border: 2px solid black;
   border-collapse: collapse;
-  border-style: groove yellow;
+
+}
+body{
+  background-image: url("https://camo.githubusercontent.com/4245b70c641bf2e45c256909538a5879ca32e8af/687474703a2f2f692e696d6775722e636f6d2f66694170392e706e67");
+  text-align: justify;
+  position: center;
+  color: red;
+}
+.contact{
+
+}
+.main{
+
+}
+.more{
+float: left;
+}
+.ref{
+  border: 2px solid black;
 }
