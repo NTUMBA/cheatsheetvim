@@ -44,7 +44,110 @@
   <td>change (replace) entire line</td>
 </tr>
 </tbody>
-
+</table>
+<table>
+<thead>
+<tr>
+<td>Action</td>
+<td>keyboad</td>
+<td>result</td>
+</thead>
+<tbody>
+  <tr>
+  <td rowspan="5">Cut and paste</td>
+  <td>yy</td>
+  <td>yank (copy) a line</td>
+</tr>
+<tr>
+  <td>2yy</td>
+  <td> yank (copy) 2 lines</td>
+</tr>
+<tr>
+  <td>yw</td>
+  <td>yank (copy) word</td>
+</tr>
+<tr>
+  <td>dd</td>
+  <td>delete (cut) a line</td>
+</tr>
+<tr>
+  <td>x</td>
+  <td>delete (cut) character</td>
+</tr>
+<tr>
+<td rowspan="5">Insert mode - inserting/appending text</td>
+<td>I</td>
+<td>insert at the beginning of the line</td>
+</tr>
+<tr>
+  <td>A</td>
+  <td>insert (append) at the end of the line</td>
+</tr>
+<tr>
+  <td>o</td>
+  <td>append (open) a new line below the current line</td>
+</tr>
+<tr>
+  <td>O</td>
+  <td>append (open) a new line above the current line</td>
+</tr>
+<tr>
+  <td>ea</td>
+  <td>insert (append) at the end of the word</td>
+</tr>
+</tbody>
   </table>
+  <table>
+  <thead>
+  <tr>
+  <td>Action</td>
+  <td>keyboad</td>
+  <td>result</td>
+  </thead>
+  <tbody>
+    <tr>
+    <td rowspan="5">Exiting</td>
+    <td>:w</td>
+    <td>write (save) the file, but don't exite</td>
+  </tr>
+  <tr>
+    <td>:w !sudo tee %</td>
+    <td>write out the current file using sud</td>
+  </tr>
+  <tr>
+    <td>:wq or :x or ZZ</td>
+    <td>write (save) and quit</td>
+  </tr>
+  <tr>
+    <td>:q</td>
+    <td>quit (fails if there are unsaved changes)</td>
+  </tr>
+  <tr>
+    <td>:q! or ZQ - </td>
+    <td>quit and throw away unsaved changes</td>
+  </tr>
+  <tr>
+  <td rowspan="5">Search and replace</td>
+  <td>?pattern</td>
+  <td>search backward for pattern</td>
+  </tr>
+  <tr>
+    <td>\vpattern</td>
+    <td>non-alphanumeric characters are interpreted as special regex symbols (no escaping needed)</td>
+  </tr>
+  <tr>
+    <td>n</td>
+    <td>repeat search in same direction</td>
+  </tr>
+  <tr>
+    <td>N</td>
+    <td>repeat search in opposite direction</td>
+  </tr>
+  <tr>
+    <td>:%s/old/new/gc</td>
+    <td>replace all old with new throughout file with confirmations</td>
+  </tr>
+  </tbody>
+    </table>
 <body>
 </html>
