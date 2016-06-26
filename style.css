@@ -1,6 +1,6 @@
 table{
   border-collapse: collapse;
-  text-align: justify;
+  text-align: center;
   background-color: white;
 }
 td{
@@ -11,13 +11,14 @@ td{
 body{
   background-image: url("https://camo.githubusercontent.com/4245b70c641bf2e45c256909538a5879ca32e8af/687474703a2f2f692e696d6775722e636f6d2f66694170392e706e67");
 background-size: cover;
-  text-align: justify;
+  text-align: left;
   position: center;
-  color: red;
+  color:#ff4500;
 }
 .contact,.main,.more{
 margin-top: 50px;
 margin-bottom: 60px;
+text-align: left;
 }
 
 
@@ -28,7 +29,4 @@ margin-left: 30%;
 margin-right: 40%;
 margin-top: 100px;
 margin-bottom: 40px;
-
-
-
 }
