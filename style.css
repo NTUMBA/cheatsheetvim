@@ -5,10 +5,12 @@ table{
   color: midnightblue;
   font-size: small;
 }
+/*Coller les bords du tableau, couleur (texte et arrière plan) et ajustemen tde la taille du contenu*/
 td{
   border: 2px solid black;
   border-collapse: collapse;
 }
+/*Coller les bords (couleur et épaisseur)des cellules du tableau*/
 body{
   background-image: url("https://camo.githubusercontent.com/4245b70c641bf2e45c256909538a5879ca32e8af/687474703a2f2f692e696d6775722e636f6d2f66694170392e706e67");
 background-size: cover;
@@ -18,17 +20,18 @@ font-size: 20px;
   position: center;
   color: #ffd700;
 }
+/*Insertion d'image d'arrière plan avec attribution de valeurs aussi pour le texte-lien*/
 .contact,.main,.more,{
 margin-top: 60px;
 margin-bottom: 40px;
 text-align: left;
 color:#ff4500;
-
 }
-
+/*utilisation du raccourci afin d'attribuer les même valeurs aux 3 divs*/
 h1{
   text-align: center;
 }
+/*Centrage du texte*/
 .ref{
   border: 2px solid black;
 background-color:deepskyblue ;
@@ -37,8 +40,10 @@ margin-right: 40%;
 margin-top: 20px;
 margin-bottom: 30px;
 }
+/*Positionnement de la case ref: attribution de cadre,couleur d'arrière plan et marges*/
 @media screen and (max-width: 1100px) {
             .ref {
               display: none;
             }
 }
+/*responsivity, largeur < 1100px, la bibliographie disparait*/
