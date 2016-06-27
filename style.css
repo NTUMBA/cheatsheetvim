@@ -3,6 +3,7 @@ table{
   text-align: center;
   background-color: papayawhip;
   color: midnightblue;
+  font-size: small;
 }
 td{
   border: 2px solid black;
@@ -35,4 +36,9 @@ margin-left: 35%;
 margin-right: 40%;
 margin-top: 20px;
 margin-bottom: 30px;
+}
+@media screen and (max-width: 1110px) {
+            .ref {
+              display: none;
+            }
 }
